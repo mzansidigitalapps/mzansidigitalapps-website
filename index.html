@@ -1,23 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Mzansi Digital Apps</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MzansiVerse Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #001f1f, #000000);
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: rgba(0,255,150,0.05);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0,255,150,0.3);
+}
+
+.subheading {
+    font-size: 14px;
+    color: #00ffaa;
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.4s ease;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0,255,150,0.2);
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 0 25px #00ffaa;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.coming {
+    font-size: 11px;
+    color: gold;
+    margin-top: 6px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {opacity: 0.4;}
+    50% {opacity: 1;}
+    100% {opacity: 0.4;}
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    border-top: 1px solid rgba(0,255,150,0.2);
+    margin-top: 40px;
+}
+
+.ad-banner {
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(255,215,0,0.08);
+    border: 1px solid rgba(255,215,0,0.3);
+    font-size: 12px;
+    color: gold;
+}
+
+</style>
 </head>
-<body style="font-family: Arial; padding: 40px;">
-  <h1>Mzansi Digital Apps</h1>
-  <p>Building Africa’s digital service economy.</p>
+<body>
 
-  <h2>Launching Soon</h2>
-  <ul>
-    <li>On-demand drivers</li>
-    <li>Doctors & telehealth</li>
-    <li>Service providers & local stores</li>
-    <li>Cashless, secure digital payments</li>
-  </ul>
+<header>
+MzansiVerse Hub
+<div class="subheading">South Africa's Digital Future</div>
+</header>
 
-  <p><strong>Service providers:</strong> Email us to sign up early</p>
-  <p>📧 mzansidigitalapps@gmail.com</p>
+<div class="ad-banner">
+AdMob Banner Placeholder
+</div>
+
+<div class="grid">
+
+<div class="card">
+<div class="icon">⏱</div>
+<div class="title">Mzansi Timer Lite</div>
+</div>
+
+<div class="card">
+<div class="icon">🧮</div>
+<div class="title">Mzansi Calculator Lite</div>
+</div>
+
+<div class="card">
+<div class="icon">🏃</div>
+<div class="title">Mzansi Township Runner</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🐍</div>
+<div class="title">Mzansi Snake</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🛹</div>
+<div class="title">Mzansi Skater City</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🏬</div>
+<div class="title">Mzansi Mall</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">💼</div>
+<div class="title">Mzansi Jobs Connect</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🚗</div>
+<div class="title">Mzansi Roadside Assist</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🍔</div>
+<div class="title">Mzansi Eats</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🏥</div>
+<div class="title">MzansiCare</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🪙</div>
+<div class="title">MzansiCurrency</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+<div class="card">
+<div class="icon">🌍</div>
+<div class="title">Mzansi Maps</div>
+<div class="coming">Coming Soon</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 Mzansi Digital Apps | Built for South Africa 🇿🇦
+</footer>
+
 </body>
 </html>
